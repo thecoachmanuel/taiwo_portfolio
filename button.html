@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./button.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <button class="button34" id="button">
+      <img class="mail-icon6" alt="" src="./public/mail.svg" />
+
+      <b class="send-me-a6">send me a mail</b>
+    </button>
+
+    <script>
+      const button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function () {
+          window.location.href =
+            "mailto:tadeyinka123@gmail.com?subject=Let's connect";
+        });
+      }
+      </script>
+  </body>
+</html>

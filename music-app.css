@@ -1,0 +1,222 @@
+.lily1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.logo8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: var(--font-size-15xl);
+}
+.nav36,
+.nav37 {
+  position: relative;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav36 {
+  color: var(--color-mediumaquamarine);
+}
+.nav37 {
+  font-weight: 500;
+}
+.nav-menu9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-63xl);
+  color: var(--color-darkgray);
+}
+.lets-talk11 {
+  position: relative;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+.button39,
+.navigation8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button39 {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-mediumaquamarine);
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-13xl);
+  text-align: center;
+  color: var(--color-white);
+}
+.navigation8 {
+  background-color: var(--color-gray-300);
+  width: 1400px;
+  justify-content: space-between;
+  padding: var(--padding-11xl) var(--padding-119xl);
+  box-sizing: border-box;
+}
+.my-resume,
+.resume1 {
+  align-self: stretch;
+  position: relative;
+}
+.resume1 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  height: 52px;
+  flex-shrink: 0;
+}
+.my-resume {
+  font-size: var(--font-size-11xl);
+  line-height: 40px;
+  text-transform: capitalize;
+  color: var(--color-lightgray);
+}
+.resume-parent {
+  gap: var(--gap-base);
+}
+.my-case-studies-inner,
+.my-case-studies8,
+.resume-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.my-case-studies8 {
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  padding: var(--padding-106xl) var(--padding-226xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+}
+.have-a-projects7 {
+  position: relative;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.have-a-projects-wrapper5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.lets-work-together7 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-23xl);
+  text-transform: capitalize;
+  font-family: var(--font-playfair-display);
+  color: var(--color-lightgray);
+}
+.if-youre-seeking7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  font-family: var(--font-roboto);
+  color: var(--color-darkgray);
+}
+.heading9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.mail-icon8 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button40,
+.have-a-project7 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.button40 {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-mediumaquamarine);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-21xl);
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.have-a-project7 {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-106xl) var(--padding-226xl);
+  gap: var(--gap-30xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}
+.lily-squire-1 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.facebook-negative8 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dribbble-negative8,
+.facebook-negative8 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.bottom-footer8,
+.social-ions8 {
+  display: flex;
+  flex-direction: row;
+}
+.social-ions8 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.bottom-footer8 {
+  align-self: stretch;
+  background-color: var(--color-gray-400);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-12xl) var(--padding-35xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
+.music-app {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumaquamarine);
+  font-family: var(--font-roboto);
+}

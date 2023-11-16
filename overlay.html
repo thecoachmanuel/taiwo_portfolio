@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./overlay.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="nav-menu7">
+        <b class="nav28" id="popupnavText">Home</b>
+        <div class="nav29" id="popupnavText1">my services</div>
+        <div class="nav30" id="popupnavText2">Case Study</div>
+        <div class="nav30" id="popupnavText3">Resume</div>
+      </div>
+      <button class="button36" id="popupbutton">
+        <b class="lets-talk9">Let’s talk</b>
+      </button>
+    </div>
+
+    <script>
+      var popupnavText = document.getElementById("popupnavText");
+      if (popupnavText) {
+        popupnavText.addEventListener("click", function (e) {
+          window.location.href = "frame.html";
+        });
+      }
+      
+      var popupnavText1 = document.getElementById("popupnavText1");
+      if (popupnavText1) {
+        popupnavText1.addEventListener("click", function (e) {
+          window.location.href = "frame.html";
+        });
+      }
+      
+      var popupnavText2 = document.getElementById("popupnavText2");
+      if (popupnavText2) {
+        popupnavText2.addEventListener("click", function (e) {
+          window.location.href = "frame.html";
+        });
+      }
+      
+      var popupnavText3 = document.getElementById("popupnavText3");
+      if (popupnavText3) {
+        popupnavText3.addEventListener("click", function (e) {
+          window.location.href = "./frame1.html";
+        });
+      }
+      
+      var popupbutton = document.getElementById("popupbutton");
+      if (popupbutton) {
+        popupbutton.addEventListener("click", function () {
+          window.location.href = "https://wa.me/2348161199578";
+        });
+      }
+      </script>
+  </body>
+</html>

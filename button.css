@@ -1,0 +1,50 @@
+.mail-icon6 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.send-me-a6 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.button34 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-21xl);
+  background-color: var(--color-crimson);
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+@media screen and (max-width: 960px) {
+  .send-me-a6 {
+    font-size: var(--font-size-sm);
+  }
+  .button34 {
+    padding: var(--padding-base) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .send-me-a6 {
+    font-size: var(--font-size-2xs);
+  }
+  .button34 {
+    padding: var(--padding-xs) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

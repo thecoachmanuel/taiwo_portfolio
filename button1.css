@@ -1,0 +1,33 @@
+.lets-talk8 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+}
+.button35 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-13xl);
+  background-color: var(--color-crimson);
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 420px) {
+  .lets-talk8 {
+    font-size: var(--font-size-smi);
+  }
+  .button35 {
+    padding: var(--padding-xs) var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
